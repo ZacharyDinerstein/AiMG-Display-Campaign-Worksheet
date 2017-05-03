@@ -1,6 +1,5 @@
 /* TO DO
-- Fix dots so they show up on all browsers
-
+- 
 
 
 
@@ -10,8 +9,8 @@
 
 
 NEXT
-- Build second page
-- Radio buttons are firing incorrectly when multiple are clicked
+- Fix dots so they show up on all browsers
+-Fix Intereste textfield
 
 
 ICEBOX
