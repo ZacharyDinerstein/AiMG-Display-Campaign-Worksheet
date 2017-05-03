@@ -10,7 +10,7 @@
 	<div class="container">
 		<header>
 			<img class="logo" src='img/ai-logo.png'></img>
-			<div class="banner">Search Campaign Worksheet</div>
+			<div class="banner">DISPLAY CAMPAIGN WORKSHEET</div>
 			<div class="header-text-container">
 				<h1>AI MEDIA GROUP CAMPAIGN WORKSHEET</h1>
 				<h3>589 8th Ave New York NY 10018</h3>
@@ -131,36 +131,42 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 							<label>Where should this campaign run geographically?</label>
-							<textarea class="form-control" rows="3"></textarea>
+							<textarea class="form-control" rows="2"></textarea>
 						</div>
 						<div class="form-group">
-							<label>What services does the client want to promote?</label>
-							<textarea class="form-control" rows="3"></textarea>
-						</div>
-						<div class="form-group">
-							<label>What networks is the client expecting to see?</label>
-							<div class="checkbox-container">
-								<label>Google</label>
-								<label class="checkbox-inline">
-								  <input type="checkbox" id="inlineCheckbox1" value="option1">
-								</label>
-								<label>Bing</label>
-								<label class="checkbox-inline">
-								  <input type="checkbox" id="inlineCheckbox1" value="option1">
-								</label>
-								<label>Ask.com</label>
-								<label class="checkbox-inline">
-								  <input type="checkbox" id="inlineCheckbox1" value="option1">
-								</label>
-								<label>SuperPages</label>
-								<label class="checkbox-inline">
-								  <input type="checkbox" id="inlineCheckbox1" value="option1">
-								</label>
-								<label>Yahoo</label>
-								<label class="checkbox-inline">
-								  <input type="checkbox" id="inlineCheckbox1" value="option1">
-								</label>
+							<label>What is the client's goal for this campaign?</label>
+							<div class="indented-field-container">
+								<div class="checkbox-container">
+									<label>Direct Response</label>
+									<label class="checkbox-inline">
+									  <input type="checkbox" id="inlineCheckbox1" value="option1">
+									</label>
+									<label>Brand Awareness</label>
+									<label class="checkbox-inline">
+									  <input type="checkbox" id="inlineCheckbox1" value="option1">
+									</label>
+									<label>Sale Generation</label>
+									<label class="checkbox-inline">
+									  <input type="checkbox" id="inlineCheckbox1" value="option1">
+									</label>
+									<label>Customer Retention</label>
+									<label class="checkbox-inline">
+									  <input type="checkbox" id="inlineCheckbox1" value="option1">
+									</label>
+								</div>
 							</div>
+							<div class="indented-field-container">
+								<div class="form-inline campaign-goal">
+									<div class="form-group">
+										<label>Other</label>
+										<input class="line-under" type="" name="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>What networks is the client expecting to run?</label>
+							<textarea class="form-control" rows="3"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Is this an e-comm/secure site?</label>
@@ -204,6 +210,19 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
+							<label>Do we need trademark authorization?</label>
+							<div class="indented-field-container">
+								<label>Yes</label>
+								<label class="radio-inline">
+									<input type="radio" name="trademarkAuthRadioBtns" id="blankRadio1" value="option1" aria-label="...">
+								</label>
+								<label>No</label>
+								<label class="radio-inline">
+									<input type="radio" name="trademarkAuthRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
+								</label>							
+							</div>
+						</div>
+						<div class="form-group">
 							<label>What is considered a lead?</label>
 							<div class="checkbox-container">
 								<div>
@@ -246,7 +265,7 @@
 						</div>
 						<div class="form-group">
 							<p class="help-block">"please clearly elaborate below what other KPIs are"</p>
-							<textarea class="form-control" rows="3"></textarea>
+							<textarea class="form-control" rows="2"></textarea>
 						</div>
 						<div class="form-group">
 							<label>What are the customer's business hours? (Day-parting)</label>
@@ -281,19 +300,6 @@
 								</div>
 							</div>						
 						</div>
-						<div class="form-group">
-							<label>Do we need trademark authorization?</label>
-							<div class="indented-field-container">
-								<label>Yes</label>
-								<label class="radio-inline">
-									<input type="radio" name="trademarkAuthRadioBtns" id="blankRadio1" value="option1" aria-label="...">
-								</label>
-								<label>No</label>
-								<label class="radio-inline">
-									<input type="radio" name="trademarkAuthRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
-								</label>							
-							</div>
-						</div>
 					</div>
 				</div>	
 				<hr>
@@ -302,7 +308,7 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 							<label>Who are their direct competitors?</label>
-							<textarea class="form-control" rows="12"></textarea>
+							<textarea class="form-control" rows="15"></textarea>
 						</div>
 						<div class="form-group">
 							<label>What is client's current CPL?</label>
@@ -335,41 +341,28 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label>Do we need client approval for ads?</label>
+							<label>Will agency provide creatives?</label>
 							<div class="indented-field-container">
 								<label>Yes</label>
 								<label class="radio-inline">
-									<input type="radio" name="aDclientApprovalRadioBtns" id="blankRadio1" value="option1" aria-label="...">
+									<input type="radio" name="agencyCreativesRadioBtns" id="blankRadio1" value="option1" aria-label="...">
 								</label>
 								<label>No</label>
 								<label class="radio-inline">
-									<input type="radio" name="aDclientApprovalRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
+									<input type="radio" name="agencyCreativesRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
 								</label>							
 							</div>
 						</div>
 						<div class="form-group">
-							<label>Do we need client approval for keywords?</label>
+							<label>Will Ai have to revise creatives?</label>
 							<div class="indented-field-container">
 								<label>Yes</label>
 								<label class="radio-inline">
-									<input type="radio" name="keywordClientApprovalRadioBtns" id="blankRadio1" value="option1" aria-label="...">
+									<input type="radio" name="reviseCreativesRadioBtns" id="blankRadio1" value="option1" aria-label="...">
 								</label>
 								<label>No</label>
 								<label class="radio-inline">
-									<input type="radio" name="keywordClientApprovalRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
-								</label>							
-							</div>
-						</div>
-						<div class="form-group">
-							<label>Do we need client approval for changes?</label>
-							<div class="indented-field-container">
-								<label>Yes</label>
-								<label class="radio-inline">
-									<input type="radio" name="changesClientApprovalRadioBtns" id="blankRadio1" value="option1" aria-label="...">
-								</label>
-								<label>No</label>
-								<label class="radio-inline">
-									<input type="radio" name="changesClientApprovalRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
+									<input type="radio" name="reviseCreativesRadioBtns" id="inlineRadio2" value="option2" aria-label="...">
 								</label>							
 							</div>
 						</div>
@@ -377,15 +370,15 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 							<label>Special Notes and Instructions:</label>
-							<textarea class="form-control" rows="13"></textarea>
+							<textarea class="form-control" rows="12"></textarea>
 						</div>
 						<div class="form-group">
 							<label>RFC Instructions:</label>
-							<textarea class="form-control" rows="5"></textarea>
+							<textarea class="form-control" rows="3"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Landing Page Instructions:</label>
-							<textarea class="form-control" rows="5"></textarea>
+							<textarea class="form-control" rows="3"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Is there any tagging needed for client internal reporting?</label>

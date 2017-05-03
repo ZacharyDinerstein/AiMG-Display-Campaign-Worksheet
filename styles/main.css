@@ -175,6 +175,21 @@ main {
     margin-right: 16px;
 }
 
+.campaign-goal .form-group {
+    width: 100%;
+}
+
+.campaign-goal label {
+    width: 13%;
+}
+
+.campaign-goal input {
+    width: 18%;
+}
+
+.indented-field-container .campaign-goal input.line-under {
+    width: 78%;
+}
 
 label {
     font-weight: 400;
