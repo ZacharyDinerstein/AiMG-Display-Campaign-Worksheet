@@ -236,6 +236,10 @@ input.line-under {
     display: inline;
 }
 
+.checkbox-inline {
+    padding-left: 21px;
+}
+
 .checkbox-container div {
     display: inline-block;
 }
@@ -244,9 +248,24 @@ input.line-under {
     margin-right: 1.5px;
 }
 
+.stacked-checkboxes .checkbox-container div {
+    display: block;
+}
+
+.stacked-checkboxes .checkbox-container label {
+    margin-bottom: 10px;
+}
+
+.stacked-checkboxes .checkbox-container .checkbox-inline {
+    top: 4px;
+}
+
+
 .radio-inline input[type="radio"], .checkbox-inline input[type="checkbox"] {
     position: relative;
 }
+
+
 
 .indented-field-container {
     padding-left:  46px;
